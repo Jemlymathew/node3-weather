@@ -106,7 +106,7 @@ app.get('*',(req,res) =>{
     res.render('404', {
         title:'404',
         name:'Jemly',
-        errorMessage :'Page not found'
+        errorMessage :'Page not found .404 error'
     })
 }
 
